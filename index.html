@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rahasia ranking tinggi dengan teknik HTML5 modern yang jarang digunakan blogger pemula">
+    <title>7 Teknik HTML5 Tersembunyi untuk Mengalahkan Kompetitor di Google</title>
+    
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="styles.css" as="style">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "7 Teknik HTML5 Tersembunyi untuk Mengalahkan Kompetitor di Google",
+      "description": "Teknik coding advanced yang diabaikan 95% blogger tapi dicintai algoritma Google",
+      "author": {
+        "@type": "Person",
+        "name": "Expert SEO"
+      },
+      "datePublished": "2024-03-15",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Master Blogger"
+      }
+    }
+    </script>
+    
+    <style>
+        /* Atomic CSS untuk performa */
+        .bg-primary { background-color: #1a365d }
+        .text-white { color: #fff }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem }
+        .px-4 { padding-left: 1rem; padding-right: 1rem }
+        .rounded-lg { border-radius: 0.5rem }
+        .shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1) }
+        
+        /* Modern CSS yang jarang dipakai */
+        :root {
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --text-balance: balance;
+        }
+        
+        article {
+            text-wrap: balance; /* Fitur baru CSS 2024 */
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 65ch) [main-end] minmax(1rem, 1fr) [full-end];
+        }
+        
+        .content-grid > * {
+            grid-column: main;
+        }
+        
+        .full-bleed {
+            grid-column: full;
+        }
+        
+        /* Interactivity */
+        details[open] summary ~ * {
+            animation: sweep 0.5s ease-in-out;
+        }
+        
+        @keyframes sweep {
+            0% { opacity: 0; transform: translateY(-10px) }
+            100% { opacity: 1; transform: translateY(0) }
+        }
+    </style>
+</head>
+<body>
+    <!-- Semantic HTML yang jarang dipakai -->
+    <header class="bg-primary text-white py-2 px-4 rounded-lg shadow-xl">
+        <h1 itemprop="headline">7 Teknik HTML5 Tersembunyi untuk Mengalahkan Kompetitor di Google</h1>
+        <p><time datetime="2024-03-15">15 Maret 2024</time> | <span itemprop="author">Expert SEO</span></p>
+    </header>
+    
+    <main class="content-grid">
+        <article>
+            <section aria-labelledby="section1">
+                <h2 id="section1">1. Content-Visibility untuk Loading Super Cepat</h2>
+                <p>Gunakan properti CSS baru yang diabaikan 90% blogger:</p>
+                <pre><code class="language-css">.long-content {
+    content-visibility: auto;
+    contain-intrinsic-size: 1000px;
+}</code></pre>
+                <p>Teknik ini bisa meningkatkan LCP hingga 300% menurut Google Case Studies.</p>
+            </section>
+            
+            <section aria-labelledby="section2">
+                <h2 id="section2">2. Native Popover API (Gantikan Modal JS)</h2>
+                <button popovertarget="my-popover">Klik untuk Demo Popover HTML5</button>
+                <div id="my-popover" popover>Ini popover murni HTML tanpa JavaScript!</div>
+                
+                <details>
+                    <summary>Mengapa ini penting untuk SEO?</summary>
+                    <p>Google lebih suka native element daripada solusi JavaScript berat. Popover API mengurangi 90% bundle size dibanding library modal tradisional.</p>
+                </details>
+            </section>
+            
+            <section aria-labelledby="section3" class="full-bleed">
+                <div style="background: var(--gradient); padding: 2rem; color: white;">
+                    <h2 id="section3">3. Scroll-Driven Animations (Tanpa JavaScript)</h2>
+                    <p style="view-timeline-name: --animation; animation: linear reveal both; animation-timeline: --animation;">
+                        Animasi ini terpicu saat scroll tanpa JS!
+                    </p>
+                </div>
+            </section>
+            
+            <section aria-labelledby="section4">
+                <h2 id="section4">4. Selector :has() untuk Dynamic Content</h2>
+                <p>CSS level 4 yang bisa menggantikan banyak fungsi JavaScript:</p>
+                <pre><code class="language-css">/* Jika ada gambar, tambahkan margin */
+.article:has(img) {
+    margin-bottom: 2rem;
+}
+
+/* Style parent berdasarkan anak */
+.card:has(.priority) {
+    border: 2px solid gold;
+}</code></pre>
+            </section>
+        </article>
+    </main>
+    
+    <footer>
+        <p>© 2024 Advanced Blogger. <a href="/privacy" hreflang="id" rel="nofollow">Kebijakan Privasi</a></p>
+    </footer>
+    
+    <!-- Elemen modern yang diabaikan -->
+    <script type="module">
+        // Gunakan module scripts daripada inline
+        console.log('Modern JS execution');
+    </script>
+</body>
+</html>
